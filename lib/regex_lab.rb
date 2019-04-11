@@ -24,7 +24,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
 
   beg_number = text.scan(/\w+/)[0]
-  if (text.scan(/\./)) && (beg_numbe == beg_numbe.upcase)
+  if (text.scan(/\./)) && (beg_number == beg_number.upcase)
   return  true
   else
   return  false
